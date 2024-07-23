@@ -11,8 +11,9 @@
   <body>
     <header>
       <div class="center">
+      <!-- target="_blank"= abre a pag em outra guia -->
         <h1 style="text-align: center">Programação Web II - Pedido de compra</h1>
-        <a href="carrinho.php" target="_blank" style="margin-left: 10px;">Carrinho</a>
+        <a href="carrinho.php" target="_self" style="margin-left: 10px;">Carrinho</a>
         <a href="categoria.php" target="_self" style="margin-left: 1px;" >Categoria</a>
         <a href="marca.php" target="_self" style="margin-left: 1px;" >marcas</a>
         <a href="produtos.php" target="_self" style="margin-left: 1px;" >produtos</a>
