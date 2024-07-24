@@ -1,8 +1,11 @@
 <?php
+//puxa arquivo de conexão para ligar com o banco de dados.
 include('controller/conexao.php');
 
+// puxa oque foi escrito na caixa de texto do categoria 
 $descricao = $_POST['descricao'];
 
+// imprime na tela
 echo "<h3>Descrição: $descricao</h3><br><br>";
 
 $cad_categoria = "INSERT INTO categoria(DESCRICAO) VALUES ('$descricao')";

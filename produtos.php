@@ -1,4 +1,5 @@
 <?php
+//inclui e avalia o arquivo especificado durante a execução do script, garantindo que o arquivo seja incluído apenas uma vez
 include_once('controller/conexao.php');
 ?>
 <!DOCTYPE html>
@@ -29,8 +30,11 @@ include_once('controller/conexao.php');
             <select name="seleciona_categoria" id="">
                 <option value="">Selecione</option>
                 <?php
+                //Pega os itens presentes no banco de dados e exibe na pagina para selecionar
                 $resultado_categoria = "SELECT * FROM `categoria`";
                 $resultcategoria = mysqli_query($mysqli, $resultado_categoria);
+
+                //while =  repete um bloco de código enquanto uma condição especificada for verdadeira
                 while ($row_categorias = mysqli_fetch_assoc($resultcategoria)) {
                 ?>
 

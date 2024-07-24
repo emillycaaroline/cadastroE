@@ -1,4 +1,5 @@
 <?php
+//puxa arquivo de conexão para ligar com o banco de dados.
 include('controller/conexao.php');
 
 $descricao = $_POST['descricao'];

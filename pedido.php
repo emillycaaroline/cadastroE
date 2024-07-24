@@ -19,6 +19,8 @@
   <section id="produtos">
     <div class="center">
       <div>
+      
+      <!-- inclui e avalia o arquivo especificado durante a execução do script, garantindo que o arquivo seja incluído apenas uma vez -->
         <?php require_once('controller/produtos-resumo.php'); ?>
       </div>
     </div>
