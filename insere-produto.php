@@ -14,15 +14,14 @@ $grava_produto = "INSERT INTO produtos(IDCATEGORIA, IDMARCA, NOME, DESCRICAO, ES
 
 $result_gravacao = mysqli_query($mysqli, $grava_produto);
 
-if(mysqli_affected_rows($mysqli) != 0){
+if (mysqli_affected_rows($mysqli) != 0) {
     echo "
     <META HTTP-EQUIV=REFRESH CONTENT = 'O;URL=produto.php'>
     <script type=\"text/javascript\">
         alert('produto cadastrado com sucesso!!');
     </script>
     ";
-
-}else{
+} else {
     echo "
     <META HTTP-EQUIV=REFRESH CONTENT = 'O;URL=produto.php'>
     <script type=\"text/javascript\">
@@ -30,5 +29,3 @@ if(mysqli_affected_rows($mysqli) != 0){
     </script>
     ";
 }
-
-?>
