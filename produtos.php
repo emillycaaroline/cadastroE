@@ -13,7 +13,8 @@ include_once('controller/conexao.php');
         }
         section{
             
-            border: solid black 2px;
+            border:  2px;
+            
             margin-left: 500px;
             margin-right: 500px;
             border-radius: 50px;
