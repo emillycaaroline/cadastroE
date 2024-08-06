@@ -2,7 +2,7 @@
 
 ## 📋 Descrição 
 
-Este projeto foi desenvolvido na disciplina de `Programação Web II` no `Colégio Marista Irmão Acácio`. Os arquivos desenvolvidos em PHP apresentam um site com características de e-commerce (site de compras), que oferece funcionalidades para dois tipos de usuários: `Comprador` e `Vendedor`.
+Este projeto foi desenvolvido na disciplina de `Programação Web II` no `Colégio Marista Irmão Acácio`. Os arquivos desenvolvidos em PHP apresentam um site com características de e-commerce (site de compras), que oferece funcionalidades para dois tipos de usuários: `Comprador` e `Vendedor`, com essa atividade, aprendemos alguns códigos novos de php e a conexão com o banco de dados.
 
 ### 🖇️ Funcionalidades de Cada Usuário:
 **Vendedor:** 
@@ -11,7 +11,17 @@ Este projeto foi desenvolvido na disciplina de `Programação Web II` no `Colég
 **Comprador:** 
 - Realiza compras e Acessar uma tela inicial com todos os itens disponíveis para compra (extraídos do banco de dados), exibindo características do produto como categoria, marca, quantidade em estoque, valor e disponibilidade (se o produto está disponível ou indisponível quando o estoque acabar).
 
-### Banco de Dados
+### 📊 Banco de Dados
+`Estrutura do Banco de Dados:`
+
+**Tabelas:**
+Produtos
+Categorias
+Marcas
+Pedidos
+Itens dos Pedidos
+Usuários
+
 **PhpMyAdmin/Código**   
 <img src="img/imagem.png" alt="Visualização do banco de dados" width="500"/>
 <img src="img/imggg.png" alt="Código no PhpMyAdmin" width="300"/>
@@ -31,8 +41,6 @@ Este projeto foi desenvolvido na disciplina de `Programação Web II` no `Colég
 **Exemplo de Cadastro de Produto**   
 <img src="img/image.png" alt="Imagem da página de cadastro de produto" width="500"/>
 
-## ✒️ Autor
-⚠️ Este código não é de minha autoria; foi desenvolvido em sala de aula e disponibilizado pelo professor.
 
 ## Métodos Utilizados
 
@@ -57,9 +65,13 @@ Este projeto foi desenvolvido na disciplina de `Programação Web II` no `Colég
 
 **connect_error:** *Propriedade que retorna uma string contendo a descrição do erro de conexão, se a tentativa de conexão com o banco de dados falhar.*
 
-**mysqli_error:***Retorna uma string com a descrição do erro mais recente para a conexão ou consulta MySQL, facilitando a depuração de problemas.*
+**mysqli_error:** *Retorna uma string com a descrição do erro mais recente para a conexão ou consulta MySQL, facilitando a depuração de problemas.*
 
-**mysqli_close($mysqli):***Encerra a conexão com o servidor MySQL associada ao identificador fornecido, liberando os recursos associados à conexão.*
+**mysqli_close($mysqli):** *Encerra a conexão com o servidor MySQL associada ao identificador fornecido, liberando os recursos associados à conexão.*
+
+
+## ✒️ Autor
+### ⚠️ Este código não é de minha autoria; foi desenvolvido em sala de aula e disponibilizado pelo professor.
 
 meu git:  
 [<img loading="lazy" src="https://avatars.githubusercontent.com/u/127847857?v=4" width=115><br><sub>Emilly Caroline </sub>](https://github.com/emillycaaroline)<br><br><br>
