@@ -1,31 +1,36 @@
  
 # 🔍 cadastroE
 
-## 📋 descrição ⚠️
+## 📋 descrição 
 
-- Desenvolvido para a matéria de `programação web II` no `Colégio Marista Irmão Acácio`, os arquivos desenvolvidos em php é um de site de ecommerce com lugares para adicionar marca, produto e categoria.
+- Este projeto foi desenvolvido na matéria de `programação web II` no `Colégio Marista Irmão Acácio`, os arquivos desenvolvidos em php apresentam um site com caracteristicas de Eccomerce(site de compras) que apresenta funções para o usuario1 (Comprador) e o usuario 2(vendedor).
 
-- O código em questão não é de minha autoria, foi realizado em sala e disponibilizado pelo professor
+### 🖇️ Funções de cada usuario:
+`Vendedor`: Poderá adicionar um novo produto, marca, ou categoria que irá direto para o banco de dados, ele tambem vai ter acesso ao própio banco que lhe permitirá ver os itens adicionado por ele e tambem irá ver todos os seus clientes, os pedidos e os itens do pedido.
 
-## 🖇️ Funções de cada arquivo:
-- [`index`](https://github.com/emillycaaroline/cadastroE/blob/main/index.php)= Pagina inicial onde aparece os produtos disponiveis com os valores e descrição e em cima um botão que leva ao [`Carrinho`](https://github.com/emillycaaroline/cadastroE/blob/main/carrinho.php) onde aparece os itens que foram adicionados, juntamente com o valor final e o confirmar pedido.
+`Comprador`: Poderá realizar compra, onde ele entrará em uma tela inicial com todos os itens disponiveis para compra(que estão no banco de dados) mostrando tambem caracteristicas do produto como, Categoria, marca, quantia de estoque, valor e se o produto esta disponivel ou indisponivel(quando acabar o estoque)
 
-- [`Categoria`](https://github.com/emillycaaroline/cadastroE/blob/main/categoria.php), [`marca`](https://github.com/emillycaaroline/cadastroE/blob/main/marca.php), [`produto`](https://github.com/emillycaaroline/cadastroE/blob/main/produtos.php)= são ultilizados para adicionar cada uma das coisas e quando um produto é adicionado alltomaticamente vai aparecer na página inicial.
+### Banco de dados
+PhpMyAdmin/Código  
+<img src="img/image.png" alt="Descrição da imagem" width="500"/>
+<img src="img/imggg.png" alt="Descrição da imagem" width="300"/>
 
-`Os demais aruquivos são para conexão e desenvolvimento do banco de dados `
 
-### 🛠️ Tecnologias Utilizadas
 
-- github
+
+## 🛠️ Tecnologias Utilizadas
+
+- GitHub
 - HTML5
 - PHP
 - CSS
 - PHPmyadmin
 
 ## 👀 Viaual do site
+<img src="img/img.png" alt="Descrição da imagem" width="500"/>
 
-![img](img/img.png)
 
+⚠️ O código em questão não é de minha autoria, foi realizado em sala e disponibilizado pelo professor
 
 ## ✒️ Autor
 
