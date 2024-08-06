@@ -2,6 +2,19 @@
 <html lang="pt-br">
 
 <head>
+<style>
+        body{
+            text-align: center;
+            color: palevioletred;
+        }
+        section{
+            
+        
+            margin-left: 500px;
+            margin-right: 500px;
+            border-radius: 50px;
+        }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastrar Marca</title>
@@ -18,8 +31,8 @@
     <section id="produtos">
         <form action="insere-marca.php" method="post">
             <label for="">Descrição</label>
-            <input type="text" name="descricao">
-            <input type="submit" value="Cadastrar">
+            <input type="text" name="descricao" style="border-radius: 10px;">
+            <input type="submit" value="Cadastrar" style="border-radius: 7px;">
 
         </form>
     </section>

@@ -6,6 +6,19 @@ include_once('controller/conexao.php');
 <html lang="pt-br">
 
 <head>
+    <style>
+        body{
+            text-align: center;
+            color: palevioletred;
+        }
+        section{
+            
+            border: solid black 2px;
+            margin-left: 500px;
+            margin-right: 500px;
+            border-radius: 50px;
+        }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastrar Produtos</title>
@@ -21,13 +34,13 @@ include_once('controller/conexao.php');
     </header>
     <section id="produtos">
         <form action="insere-produto.php" method="post">
-            Nome: <input type="text" name="nome"><br>
-            Descrição: <input type="text" name="descricao"><br>
-            estoque: <input type="number" name="estoque"><br>
-            preço: <input type="number" name="preco" min="0.00" max="100000.00" step="0.01"><br>
+            Nome: <input type="text" name="nome" style="border-radius: 10px;"><br>
+            Descrição: <input type="text" name="descricao" style="border-radius: 10px;"><br>
+            estoque: <input type="number" name="estoque" style="border-radius: 10px;"><br>
+            preço: <input type="number" name="preco" min="0.00" max="100000.00" step="0.01" style="border-radius: 10px;"><br>
 
             Categoria:
-            <select name="seleciona_categoria" id="">
+            <select name="seleciona_categoria" id="" style="border-radius: 10px;">
                 <option value="">Selecione</option>
                 <?php
                 //Pega os itens presentes no banco de dados e exibe na pagina para selecionar
@@ -46,7 +59,7 @@ include_once('controller/conexao.php');
             </select><br>
 
             Marca:
-            <select name="seleciona_marca" id="">
+            <select name="seleciona_marca" id="" style="border-radius: 10px;">
                 <option value="">Selecione</option>
                 <?php
                 $resultado_marca = "SELECT * FROM `marca`";
@@ -63,7 +76,7 @@ include_once('controller/conexao.php');
 
             <br><br>
 
-            <input type="submit" value="cadastrar">
+            <input type="submit" value="cadastrar" style="border-radius: 7px;">
 
         </form>
     </section>
