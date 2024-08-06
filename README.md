@@ -14,13 +14,13 @@ Este projeto foi desenvolvido na disciplina de `Programação Web II` no `Colég
 ### 📊 Banco de Dados
 `Estrutura do Banco de Dados:`
 
-**Tabelas:**
-Produtos
-Categorias
-Marcas
-Pedidos
-Itens dos Pedidos
-Usuários
+**Tabelas:**   
+Produtos  
+Categorias  
+Marcas  
+Pedidos  
+Itens dos Pedidos   
+Usuários   
 
 **PhpMyAdmin/Código**   
 <img src="img/imagem.png" alt="Visualização do banco de dados" width="500"/>
