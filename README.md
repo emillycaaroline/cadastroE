@@ -42,7 +42,6 @@ Usuários
 <img src="img/image.png" alt="Imagem da página de cadastro de produto" width="500"/>
 
 
-## Métodos Utilizados
 
 ## Métodos ultilizados
 **include_once:** *Inclui e avalia o arquivo especificado durante a execução do script. Garante que o arquivo será incluído apenas uma vez, mesmo que seja chamado várias vezes, evitando duplicação de código.*
